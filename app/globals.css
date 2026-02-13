@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --color-background: hsl(0 0% 98%);
+  --color-background: hsl(40 20% 96%);
   --color-foreground: hsl(222 47% 11%);
   --color-card: hsl(0 0% 100%);
-  --color-muted: hsl(210 20% 96%);
+  --color-muted: hsl(40 15% 93%);
   --color-muted-foreground: hsl(215 16% 47%);
-  --color-accent: hsl(15 80% 55%);
+  --color-accent: hsl(24 95% 53%);
   --color-primary: hsl(222 47% 15%);
-  --color-border: hsl(220 13% 91%);
+  --color-border: hsl(40 10% 88%);
   --color-success: hsl(152 69% 40%);
   --color-success-light: hsl(152 69% 95%);
   --color-warning: hsl(38 92% 50%);

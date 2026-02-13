@@ -1,14 +1,14 @@
 # 📁 eybdashboard - Project Structure
 
-*Generated on: 30/01/2026, 12:57:30*
+*Generated on: 02/02/2026, 13:11:02*
 
 ## 📋 Quick Overview
 
 | Metric | Value |
 |--------|-------|
-| 📄 Total Files | 42 |
-| 📁 Total Folders | 22 |
-| 🌳 Max Depth | 3 levels |
+| 📄 Total Files | 54 |
+| 📁 Total Folders | 30 |
+| 🌳 Max Depth | 5 levels |
 | 🛠️ Tech Stack | React, Next.js, TypeScript, CSS, Node.js |
 
 ## ⭐ Important Files
@@ -24,35 +24,35 @@
 
 ### By File Type
 
-- ⚛️ **.tsx** (React TypeScript files): 22 files (52.4%)
-- 🎨 **.svg** (SVG images): 5 files (11.9%)
-- ⚙️ **.json** (JSON files): 3 files (7.1%)
-- 🔷 **.ts** (TypeScript files): 3 files (7.1%)
-- 📖 **.md** (Markdown files): 2 files (4.8%)
-- 📄 **.mjs** (Other files): 2 files (4.8%)
-- ⚙️ **.yaml** (YAML files): 2 files (4.8%)
-- 🚫 **.gitignore** (Git ignore): 1 files (2.4%)
-- 🖼️ **.ico** (Icon files): 1 files (2.4%)
-- 🎨 **.css** (Stylesheets): 1 files (2.4%)
+- ⚛️ **.tsx** (React TypeScript files): 30 files (55.6%)
+- 🔷 **.ts** (TypeScript files): 7 files (13.0%)
+- 🎨 **.svg** (SVG images): 5 files (9.3%)
+- ⚙️ **.json** (JSON files): 3 files (5.6%)
+- 📖 **.md** (Markdown files): 2 files (3.7%)
+- 📄 **.mjs** (Other files): 2 files (3.7%)
+- ⚙️ **.yaml** (YAML files): 2 files (3.7%)
+- 🚫 **.gitignore** (Git ignore): 1 files (1.9%)
+- 🖼️ **.ico** (Icon files): 1 files (1.9%)
+- 🎨 **.css** (Stylesheets): 1 files (1.9%)
 
 ### By Category
 
-- **React**: 22 files (52.4%)
-- **Assets**: 6 files (14.3%)
-- **Config**: 5 files (11.9%)
-- **TypeScript**: 3 files (7.1%)
-- **Docs**: 2 files (4.8%)
-- **Other**: 2 files (4.8%)
-- **DevOps**: 1 files (2.4%)
-- **Styles**: 1 files (2.4%)
+- **React**: 30 files (55.6%)
+- **TypeScript**: 7 files (13.0%)
+- **Assets**: 6 files (11.1%)
+- **Config**: 5 files (9.3%)
+- **Docs**: 2 files (3.7%)
+- **Other**: 2 files (3.7%)
+- **DevOps**: 1 files (1.9%)
+- **Styles**: 1 files (1.9%)
 
 ### 📁 Largest Directories
 
-- **root**: 42 files
-- **app**: 14 files
-- **app/dashboard**: 10 files
+- **root**: 54 files
+- **app**: 26 files
+- **app/dashboard**: 20 files
+- **app/dashboard/add-listing**: 10 files
 - **components**: 10 files
-- **components/ui**: 7 files
 
 ## 🌳 Directory Structure
 
@@ -61,9 +61,29 @@ eybdashboard/
 ├── 🟡 🚫 **.gitignore**
 ├── 📂 admin/
 ├── 🚀 app/
+│   ├── 📂 add-listing/
+│   │   ├── 📂 _data/
+│   │   │   └── 🔷 options.ts
+│   │   └── 📂 _types/
+│   │   │   └── 🔷 listing.ts
 │   ├── 📂 admin/
 │   ├── 📂 commissions/
 │   ├── 📂 dashboard/
+│   │   ├── 📂 add-listing/
+│   │   │   ├── 📂 _components/
+│   │   │   │   ├── ⚛️ StepIndicator.tsx
+│   │   │   │   └── 📂 steps/
+│   │   │   │   │   ├── ⚛️ Step1Type.tsx
+│   │   │   │   │   ├── ⚛️ Step2Basics.tsx
+│   │   │   │   │   ├── ⚛️ Step3PricingLocation.tsx
+│   │   │   │   │   ├── ⚛️ Step4MediaSeller.tsx
+│   │   │   │   │   └── ⚛️ Step5Review.tsx
+│   │   │   ├── 📂 _data/
+│   │   │   │   └── 🔷 options.ts
+│   │   │   ├── 📂 _types/
+│   │   │   │   └── 🔷 listing.ts
+│   │   │   ├── ⚛️ ListingWizard.tsx
+│   │   │   └── ⚛️ page.tsx
 │   │   ├── 📂 commissions/
 │   │   │   └── ⚛️ page.tsx
 │   │   ├── 📂 documents/
@@ -129,12 +149,12 @@ eybdashboard/
 ### File Types
 - 🚫 DevOps: Git ignore
 - 📖 Docs: Markdown files
+- 🔷 TypeScript: TypeScript files
 - ⚛️ React: React TypeScript files
 - 🖼️ Assets: Icon files
 - 🎨 Styles: Stylesheets
 - ⚙️ Config: JSON files
 - 📄 Other: Other files
-- 🔷 TypeScript: TypeScript files
 - ⚙️ Config: YAML files
 - 🎨 Assets: SVG images
 
